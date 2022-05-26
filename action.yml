@@ -1,0 +1,11 @@
+name: 'Setup Reviewers'
+description: 'Add reviewers to a PR'
+
+inputs:
+  GITHUB_TOKEN:
+    description: 'GitHub token'
+    required: true
+
+runs:
+  using: 'node14'
+  main: 'dist/index.js'
